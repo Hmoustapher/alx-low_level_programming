@@ -2,7 +2,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints the message "with proper grammar, buce of art,",
+ * Description: Prints the message "with proper grammar, buce of art,"
  *
  * Return: Always 0 (Success)
  */
