@@ -1,10 +1,10 @@
 #include	<stdio.h>
 /**
- * main - Entry point of the program
+ * main	-	printing output with printf
  *
- * Description: Prints the message "with proper grammar, buce of art,"
+ * Description:	print message	"leave aspace"
  *
- * Return: Always 0 (Success)
+ * Return:	always	(0)	Success
  */
 int	main(void)
 {
