@@ -1,10 +1,10 @@
 #include	<stdio.h>
 /**
- * desccription of main method
+ *	main	-it printout statement using put
  *
- * retun	always	(0)
+ * Return:	always	(0)
  *
- * */
+ */
 int	main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle\n");
