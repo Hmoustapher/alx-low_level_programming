@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include	<stdio.h>
 /**
- * main -m what is betty 
+ * main -m what is bett
  *
  * Return: always (0)
  */
