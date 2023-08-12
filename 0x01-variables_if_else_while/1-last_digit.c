@@ -1,30 +1,32 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - m tellig it what to do
+ * main - Entry point
  *
- * Description: what and what 
+ * Description: Generates a random number and prints its sign.
  *
- * Return: Always (0)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
-	int lastd;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-		if (lastd > 5)
-		{
-		printf("%d and is greater than 5\n", n, lastd);
-		}
-		else if
-		{
-		printf("%d and is 0\n", n lastd);
-		}
-		else
-		{
-		printf("%d and is 0\n", n lastd);
-		}
-		return (0);
+		srand(time(0)); /* Initialize random number generator */
+		n = rand() - RAND_MAX / 2; /* Generate random number */
+/* Print the number along with its sign */
+			printf("The number %d, followed by\n", n);
+			if (n > 0)
+{
+			printf("is positive\n");
+}
+			else if (n == 0)
+{
+			 printf("is zero\n");
+}
+			else
+{
+			printf("is negative\n");
+}
+			return (0);
 }
