@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - What ius bettu
+ *
+ * Return: always (0)
+ */
 int main(void)
 {
 	char d;
