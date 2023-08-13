@@ -12,10 +12,10 @@ int main(void)
 	{
 		putchar(d);
 	}
-		if (d <= 8)
+		if (d <= '8')
 		{
 			putchar(',');
-			putchar('	');
+			putchar(' ');
 	}
 	putchar('\n');
 	return (0);
