@@ -2,11 +2,11 @@
 /**
  * main - m these is terlifj
  *
- * Return always (0)
+ * Return: always (0)
  */
 int main(void)
 {
-	char n = '0';
+	int n = '0';
 	char t = 'a';
 
 	while (n <= '0')
