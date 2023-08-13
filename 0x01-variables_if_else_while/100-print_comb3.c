@@ -1,28 +1,31 @@
 #include <stdio.h>
 /**
- * main - main mdescription
+ * main -m main method
  *
  * Return: always (0)
+ *
  */
 int main(void)
 {
-        char d;
-        char n
+	char i;
+	char j;
 
-
-        for (d = 'a'; d <= 'f'; d++)
-        {
-                for (n = '0'; n <= '9'; n++)
-                {
-                        putchar(d + n);
-                }
-                if (j != 9)
-                {
-                        putchar(',');
-                        putchar(' ');
-                }
-        }
-        }
-        putchar('\n');
-        return (0);
+	for (i = '0'; i <= '9'; i++)
+	{
+		for (j = '0'; j <= '9'; j++)
+		{
+			if (i < j)
+			{
+				putchar(i);
+				putchar(j);
+				if (i != '8' || (i == '8' && j != '9'))
+					{
+					putchar(',');
+					putchar(' ');
+					}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
