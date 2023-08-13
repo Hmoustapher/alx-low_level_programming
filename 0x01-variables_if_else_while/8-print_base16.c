@@ -1,22 +1,23 @@
 #include <stdio.h>
 /**
- * main - m these is
+ * main - m these is terlifj
  *
  * Return always (0)
- *
  */
 int main(void)
 {
-	char n;
-	char t;
+	char n = '0';
+	char t = 'a';
 
-	for (n = '0'; n <= 9; n++)
+	while (n <= '0')
 	{
 		putchar(n);
+		n++;
 	}
-	for (t = 'a'; t <= 'f'; t++)
+	while (t <= 'f')
 	{
 		putchar(t);
+		t++;
 	}
 	putchar('\n');
 	return (0);
