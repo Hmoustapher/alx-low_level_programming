@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main -m these us
+ * main - m these us
  *
- * Return always (0)
+ * Return: always (0)
  */
 int main(void)
 {
