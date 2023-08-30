@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * wildcmp - Compare strings
- * @s1: pointer to string params
- * @s2: pointer to string params
+ * @sa1: pointer to string params
+ * @sa2: pointer to string params
  * Return: 0
  */
 int wildcmp(char *sa1, char *sa2)
