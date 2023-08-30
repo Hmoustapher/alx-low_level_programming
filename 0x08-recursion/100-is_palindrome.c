@@ -24,7 +24,7 @@ return (0);
 return (1 + _strlen_recursion(sa + 1));
 }
 /**
- * check_pal - checks the char recursively 
+ * check_pal - checks the char recursively
  * @sa: string to check
  * @i: iterator
  * @len: length of the string

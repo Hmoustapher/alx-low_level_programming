@@ -2,8 +2,8 @@
 int actual_sqrt_recursion(int t, int i);
 /**
  * _sqrt_recursion - return square root of a numbe
- * @t: nu,ber of recursive squar
- * Return:  square root
+ * @t: nuer of recursive squar
+ * Return: square root
  */
 int _sqrt_recursion(int t)
 {
@@ -12,11 +12,11 @@ int _sqrt_recursion(int t)
 	return (actual_sqrt_recursion(t, 0));
 }
 /**
- * actual_sqrt_recursion - recursive squares 
- * @t: calculate the sqaure root 
+ * actual_sqrt_recursion - recursive squares
+ * @t: calculate the sqaure root
  * @i: iterator
  *
- * Return: some
+ * Return:	iteerator
  */
 int actual_sqrt_recursion(int t, int i)
 {
